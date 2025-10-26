@@ -4,8 +4,9 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
+    base: '/medico_prueba1/'
     return {
-      base: '/medico_prueba1/'
+      
 
       server: {
         port: 3000,
